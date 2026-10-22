@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "3dmagic-telegram-posts",
+  "version": "1.0.1",
+  "description": "Создаёт понятные, нейтральные Telegram-посты о 3D-печати и обложки в стиле 3D Magic с учётом редакторских предпочтений автора.",
+  "author": {
+    "name": "3D Magic"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Посты 3D Magic",
+        "shortDescription": "Telegram-посты о 3D-печати",
+        "longDescription": "Помогает готовить короткие и доступные Telegram-посты о 3D-печати, объяснять технологии и материалы без рекламного тона и оформлять обложки по правилам 3D Magic.",
+        "developerName": "3D Magic",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "Подготовь Telegram-пост о 3D-печати и обложку в стиле 3D Magic.",
+          "Объясни эту тему о 3D-печати простым языком для Telegram.",
+          "Отредактируй пост по редакторским правилам 3D Magic."
+        ]
+      }
+    }
+  }
+}
