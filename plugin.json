@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "3dmagic-telegram-posts",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Создаёт понятные, нейтральные Telegram-посты о 3D-печати и обложки в стиле 3D Magic с учётом редакторских предпочтений автора.",
   "author": {
     "name": "3D Magic"
